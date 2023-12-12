@@ -1,0 +1,329 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #100c08;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-80 {
+  width: 80%;
+}
+.w-50 {
+  width: 50%;
+}
+
+.cardFormContainer {
+  height: 100vh;
+  width: 100%;
+}
+
+.cardContainer {
+  background-image: linear-gradient(315deg, #a55c1b 0%, #000000 74%);
+  height: 30%;
+  width: 100%;
+}
+
+.cardBack {
+  top: 2rem;
+}
+
+.cardBox {
+  height: 100%;
+  margin-top: 4rem;
+}
+
+.cardFace {
+  bottom: 5rem;
+}
+
+.formContainer {
+  margin-top: 8rem;
+  width: 100%;
+}
+
+.error {
+  font-size: 14px;
+  color: red;
+}
+
+.fieldBox {
+  width: 60vw;
+  height: 4vh;
+  border-radius: 0.4rem;
+  border: 1px #a55c1b solid;
+}
+
+.fieldBoxDate {
+  width: 60vw;
+  height: 4vh;
+  border-radius: 0.4rem;
+  border: 1px #a55c1b solid;
+}
+
+.btn-primary {
+  background-color: #a55c1b;
+  border: none;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.labelForm {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.labelFormDate {
+  color: var(--text-color);
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 540px) {
+  .cardContainer {
+    height: 40%;
+  }
+
+  .cardFace {
+    width: 90%;
+    bottom: 20%;
+    left: 5%;
+  }
+
+  .cardBack {
+    width: 90%;
+    top: 10%;
+    left: 5%;
+  }
+
+  .fieldBox {
+    width: 50vw;
+  }
+
+  .fieldBoxDate {
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .cardFace {
+    width: 90%;
+    bottom: 15%;
+  }
+
+  .cardBack {
+    width: 90%;
+    top: 15%;
+  }
+
+  .fieldBox {
+    width: 50vw;
+  }
+
+  .fieldBoxDate {
+    width: 50vw;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .cardFace {
+    width: 70%;
+    bottom: 20%;
+  }
+
+  .cardBack {
+    width: 70%;
+    top: 20%;
+    left: 25%;
+  }
+
+  .fieldBox {
+    width: 50vw;
+  }
+
+  .fieldBoxDate {
+    width: 50vw;
+  }
+
+  .cardContainer {
+    height: 40%;
+    width: 100%;
+  }
+  .labelFormDate {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 990px) {
+  .cardContainer {
+    height: auto;
+    width: 40%;
+  }
+
+  .cardFace {
+    width: 100%;
+    bottom: 80%;
+    left: 20%;
+  }
+
+  .cardBack {
+    width: 100%;
+    top: 15%;
+    left: 40%;
+  }
+
+  .formContainer {
+    width: 50%;
+    height: 100%;
+    margin-left: 6rem;
+    margin-top: 0;
+  }
+
+  .formBox {
+    width: 80%;
+    height: 50%;
+  }
+
+  .fieldBox {
+    width: 30dvw;
+  }
+  .fieldBoxDate {
+    width: 9.5dvw;
+  }
+
+  .dateContainer {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .labelFormDate {
+    width: 75%;
+  }
+
+  .btn-primary {
+    width: 76%;
+  }
+
+  .error {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .cardFace {
+    width: 100%;
+    bottom: 70%;
+    left: 20%;
+  }
+
+  .cardBack {
+    width: 100%;
+    top: 20%;
+    left: 40%;
+  }
+
+  .fieldBox {
+    width: 28dvw;
+  }
+  .fieldBoxDate {
+    width: 9dvw;
+  }
+
+  .labelFormDate {
+    width: 70%;
+  }
+
+  .btn-primary {
+    width: 72%;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .cardContainer {
+    height: auto;
+    width: 35%;
+  }
+
+  .cardFace {
+    width: 100%;
+    bottom: 60%;
+    left: 40%;
+  }
+
+  .cardBack {
+    width: 100%;
+    top: 30%;
+    left: 60%;
+  }
+
+  .formContainer {
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .formBox {
+    width: 70%;
+    height: 70%;
+    gap: 1rem;
+    align-self: flex-end;
+  }
+
+  .fieldBox {
+    width: 25dvw;
+  }
+  .fieldBoxDate {
+    width: 8dvw;
+  }
+
+  .dateContainer {
+    width: auto;
+  }
+
+  .labelFormDate {
+    width: 70%;
+  }
+
+  .btn-primary {
+    width: 72%;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .fieldBox {
+    width: 20dvw;
+  }
+  .fieldBoxDate {
+    width: 6.5dvw;
+  }
+
+  .btn-primary {
+    width: 58%;
+  }
+
+  .labelFormDate {
+    width: 58%;
+  }
+
+  .cardFace {
+    width: 100%;
+    bottom: 60%;
+    left: 35%;
+  }
+
+  .cardBack {
+    width: 100%;
+    top: 30%;
+    left: 55%;
+  }
+}
